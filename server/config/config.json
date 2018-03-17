@@ -1,0 +1,12 @@
+{
+  "test": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/ProgressAppTest",
+    "JWT_SECRET": "LTLthcQPVmnV9LLV47Wzyz"
+  },
+  "development": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/ProgressApp",
+    "JWT_SECRET": "vf59fu74VLi5PNZDYpEpy8"
+  }
+}

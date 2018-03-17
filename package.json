@@ -1,0 +1,15 @@
+{
+  "name": "progress-server",
+  "version": "1.0.0",
+  "description": "Backend REST service for MyProgress app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M. Sean Bonner",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.19"
+  }
+}
