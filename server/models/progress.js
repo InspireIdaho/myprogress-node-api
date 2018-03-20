@@ -1,14 +1,13 @@
 var mongoose = require('mongoose');
 
-var ProgressNode = mongoose.model('ProgressNode', {
+var Progress = mongoose.model('Progress', {
   indexPath: {
-    type: String,
+    type: Object,
     required: true,
-    minLength: 1,
-    trim: true
   },
   completedOn: {
     type: Number,    // unix date
+    required: true,
     default: null
   },
   _creator: {
@@ -17,4 +16,4 @@ var ProgressNode = mongoose.model('ProgressNode', {
   }
 });
 
-module.exports = {ProgressNode};
+module.exports = {Progress};
