@@ -4,7 +4,11 @@
   "description": "Backend REST service for MyProgress app.",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.2.2"
   },
   "author": "M. Sean Bonner",
   "license": "MIT",
